@@ -13,5 +13,28 @@ html {
        background-color: #F8F8F8;
        max-width: 624px;
        border-radius: 16px;
+       display: flex;
+       
     
+   }
+
+   
+   .person__photo{
+       padding: 32px;
+   }
+   .person__header{
+       padding: 32px;
+       padding-bottom:0px ;
+       margin: 0px;
+   }
+
+   .person__header--name{
+    margin:0px
+   }
+   .person__header--paragraph{
+    margin: 0px;
+   }
+
+   .person__article{
+      padding: 32px;
    }
