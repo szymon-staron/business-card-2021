@@ -1,40 +1,48 @@
 html {
-    box-sizing: border-box;
-   }
-   *, *:before, *:after {
-    box-sizing: inherit;
-   }
-   
-   .body{
-       background-color: #2C2141 ;
-   }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-   .main{
-       background-color: #F8F8F8;
-       max-width: 624px;
-       border-radius: 16px;
-       display: flex;
-       
-    
-   }
+.body {
+  background-color: #2c2141;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+}
 
-   
-   .person__photo{
-       padding: 32px;
-   }
-   .person__header{
-       padding: 32px;
-       padding-bottom:0px ;
-       margin: 0px;
-   }
+.main {
+  background-color: #f8f8f8;
+  max-width: 624px;
+  border-radius: 16px;
+  padding: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
 
-   .person__header--name{
-    margin:0px
-   }
-   .person__header--paragraph{
-    margin: 0px;
-   }
+.div__person {
+  padding-left: 32px;
+}
+.person__article {
+  display: flex;
+  align-items: flex-start;
+}
 
-   .person__article{
-      padding: 32px;
-   }
+.person__header--name {
+  margin: 0px;
+}
+.person__header--paragraph {
+  margin: 0px;
+}
+.strong {
+  font-weight: normal;
+  color: #ed6d05;
+}
+.link {
+  color: #e20613;
+  text-decoration: none;
+}
